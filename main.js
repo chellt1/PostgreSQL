@@ -6,9 +6,9 @@ const Pool = require("pg").Pool;
 const pool = new Pool({
   user: "ukd_student",
   host: "localhost",
-  database: "ukd_db",
-  password: "password",
-  port: 6666,
+  database: "users",
+  password: "2005",
+  port: 3265,
 });
 
 // TASK 0
